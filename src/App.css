@@ -1,38 +1,75 @@
 .App {
-  text-align: center;
+  box-sizing: border-box;
+  padding: 0 0;
+  margin: 0 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #D6DAE0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.TodoAppContainer {
+  border: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.TaskForm {
+  margin: 20px 20px 20px 20px;
+}
+
+.TaskInput{
+  width: 40vw;
+  height: 6vh;
+  border-radius: 3vh;
+  border: hidden;
+  padding: 4px 16px;
+  margin: 20px 0px 20px 20px;
+  color: black;
+  font-size: medium;
+}
+
+
+
+.TaskAddButton {
+  height: 6vh;
+  width: 6vh;
+  border-radius: 3vh;
+  font-size: larger;
+  margin-left: 10px;
+}
+
+.TaskItemContainer {
+  padding: 20px 40px;
+  border: none;
+}
+
+.TaskItem {
+  margin-bottom: 20px;
+  background-color: white;
+  width: 40vw;
+  height: 6vh;
+  border-radius: 1vh;
+  padding: 2vh 20px 2vh 20px;
+}
+
+.TaskName {
+  display: inline-flex;
+  width: 40vw;
+  margin-bottom: 4px;
+}
+
+.TaskStatus {
+  display: inline-flex;
+  width: 6vw;
+  height: 4vh;
+  border-radius: 1vh;
+  padding: 1vh 2vw 1vh 2vw;
+}
+
+button {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: #764abc;
+  font-size: 14px;
+  border: none;
 }
