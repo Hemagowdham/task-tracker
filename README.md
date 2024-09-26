@@ -1,6 +1,7 @@
 Todo App - Created using React
 
-![image](https://github.com/user-attachments/assets/5d647d04-d06b-452d-bf35-3ad1e4feac3a)
+![image](https://github.com/user-attachments/assets/e404ff6a-e93c-4179-ba0c-ce25e284b3c7)
+
 
 # Getting Started with Create React App
 
