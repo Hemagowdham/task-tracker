@@ -1,6 +1,15 @@
-Todo App - Created using React
+**Todo App - React Project**
 
-![image](https://github.com/user-attachments/assets/e404ff6a-e93c-4179-ba0c-ce25e284b3c7)
+ -Developed using React Functional components, React Hooks - useState and useEffect, Callback Functions.
+ 
+ -Styled with simple CSS.
+ 
+
+ **Project Screenshot**
+ 
+
+![image](https://github.com/user-attachments/assets/017af416-8af5-4785-ac7c-721176187435)
+
 
 
 # Getting Started with Create React App
