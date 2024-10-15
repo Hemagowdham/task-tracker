@@ -2,7 +2,7 @@
 
  -Developed using React Functional components, React Hooks - useState and useEffect, Callback Functions.
  
- -Styled with simple CSS.
+ -Styled with plain CSS.
  
 
  **Project Screenshot**
