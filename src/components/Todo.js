@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
+import Header from './Header';
 import TaskForm from './Taskform';
 
 //Functional component to display tast details
@@ -85,7 +86,7 @@ export default function Todo() {
     return(
         <>
         <div className="TodoAppContainer">
-            <h4>ToDo App</h4>
+            <Header />
             <div className="TaskForm">
                 <TaskForm addTask={addTask}/>
             </div>

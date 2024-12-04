@@ -1,10 +1,5 @@
 .App {
-  box-sizing: border-box;
-  padding: 0 0;
-  margin: 0 0;
-  height: 100%;
-  width: 100%;
-  background-color: #D6DAE0;
+  
 }
 
 .TodoAppContainer {
@@ -12,6 +7,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 40px;
+  background-color: #D6DAE0;
+  margin: 5vh 10vw;
+  border-radius: 4px;
+}
+
+.TodoHeader a{
+  text-align: center;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: x-large;
+
 }
 
 .TaskForm {
@@ -48,30 +55,32 @@
   margin-bottom: 20px;
   background-color: white;
   width: 40vw;
-  height: 6vh;
+  height: 12vh;
   border-radius: 1vh;
   padding: 2vh 20px 2vh 20px;
+  text-wrap:wrap;
 }
 
 .TaskName {
   display: inline-flex;
   width: 40vw;
-  margin-bottom: 4px;
+  margin-bottom: 2vh;
 }
 
 .TaskStatus {
   display: inline-flex;
-  width: 6vw;
+  width: 8vw;
   height: 4vh;
-  border-radius: 1vh;
-  padding: 1vh 2vw 1vh 2vw;
+  border-radius: 2vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .TaskDelete {
   height: 24px;
   width: 24px;
   margin-left: 10px;
-  border-radius: 1vh;
+  border-radius: 50%;
 }
 
 button {
